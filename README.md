@@ -5,6 +5,7 @@ Based on updated terraform modules by [Cloud Posse](https://github.com/cloudposs
 # Usage
 
 1. Set environment variables
+
         AWS_PROFILE=<AWS_PROFILE_NAME>
         AWS_DEFAULT_REGION=ap-southeast-1
 2. Copy terraform.tfvars.example to terraform.tfvars
