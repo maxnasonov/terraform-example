@@ -11,11 +11,11 @@ Based on updated terraform modules by [Cloud Posse](https://github.com/cloudposs
 2. Copy terraform.tfvars.example to terraform.tfvars
 3. Update terraform.tfvars
 
-        aws_profile = "rmdev"
+        aws_profile = "<AWS_PROFILE_NAME>"
         vpc_name = "test-vpc"
         vpc_cidr = "10.100.0.0/16"
         region = "ap-southeast-1"
-        public_key = "ssh-rsa XXXX"
+        public_key = "ssh-rsa <PUBLIC_KEY_CONTENT>"
 4. Run
 
         terraform init
