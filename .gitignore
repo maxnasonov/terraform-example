@@ -1,0 +1,10 @@
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+terraform.tfstate*
+.DS_Store
+.idea
+.terraform
+terraform.tfvars
